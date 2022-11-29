@@ -4,7 +4,7 @@ import LoomIframe from "../../helpers/LoomIframe";
 const Bing = () => {
   return (
     <Space id="bing-provider" direction="vertical" style={{ width: "100%" }}>
-      <h3>Bing</h3>
+      <h2>Bing</h2>
       <p>
         Para descargar un reporte es necesario seleccionar un <i>nivel</i> y una{" "}
         <i>columna.</i>

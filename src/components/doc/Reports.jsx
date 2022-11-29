@@ -4,7 +4,7 @@ import LoomIframe from "../helpers/LoomIframe";
 export const Reports = () => {
   return (
     <Space id="reports" direction="vertical" style={{ width: "100%" }}>
-      <h3>Creación de reportes</h3>
+      <h1>Creación de reportes</h1>
       <p>
         Para crear un reporte combinando la información de múltiples proveedores
         sigue los pasos que se muestran a continuación:
