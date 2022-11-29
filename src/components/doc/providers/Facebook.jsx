@@ -8,7 +8,7 @@ const Facebook = () => {
       direction="vertical"
       style={{ width: "100%" }}
     >
-      <h3>Facebook</h3>
+      <h2>Facebook</h2>
       <p>
         Para descargar un reporte es necesario seleccionar al menos un{" "}
         <i>campo.</i>

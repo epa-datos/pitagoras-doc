@@ -3,7 +3,7 @@ import { Space } from "antd";
 const Faqs = () => {
   return (
     <Space id="faqs" direction="vertical">
-      <h3>FAQ's</h3>
+      <h1>FAQ's</h1>
     </Space>
   );
 };

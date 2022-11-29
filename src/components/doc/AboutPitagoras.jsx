@@ -1,16 +1,17 @@
 import { Space } from "antd";
+import "./_doc.scss";
 
 const AboutPitagoras = () => {
   return (
     <Space id="about-pitagoras" direction="vertical">
-      <h3>Pitágoras </h3>
+      <h1>Pitágoras </h1>
       <p>
         Pitágoras es un add-on de Google Spreadsheet, el cual permite descargar
         información de distintas plataformas cómo{" "}
         <strong>Adwords, Facebook, Analytics y Bing.</strong>
       </p>
 
-      <h4>Pitágoras vs EPA Admin Tool</h4>
+      <h3>Pitágoras vs EPA Admin Tool</h3>
       <ul>
         <li>
           Para <strong>Adwords, Facebook y Bing </strong>esta nueva versión
