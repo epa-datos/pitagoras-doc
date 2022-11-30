@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pitagoras-doc/static/css/main.ed08231b.css",
-    "main.js": "/pitagoras-doc/static/js/main.8163bae7.js",
+    "main.js": "/pitagoras-doc/static/js/main.f3307319.js",
     "static/js/787.e6bd7a61.chunk.js": "/pitagoras-doc/static/js/787.e6bd7a61.chunk.js",
     "index.html": "/pitagoras-doc/index.html",
     "main.ed08231b.css.map": "/pitagoras-doc/static/css/main.ed08231b.css.map",
-    "main.8163bae7.js.map": "/pitagoras-doc/static/js/main.8163bae7.js.map",
+    "main.f3307319.js.map": "/pitagoras-doc/static/js/main.f3307319.js.map",
     "787.e6bd7a61.chunk.js.map": "/pitagoras-doc/static/js/787.e6bd7a61.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed08231b.css",
-    "static/js/main.8163bae7.js"
+    "static/js/main.f3307319.js"
   ]
 }
