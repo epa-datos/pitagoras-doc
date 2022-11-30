@@ -3,11 +3,7 @@ import LoomIframe from "../../helpers/LoomIframe";
 
 const Facebook = () => {
   return (
-    <Space
-      id="facebook-provider"
-      direction="vertical"
-      style={{ width: "100%" }}
-    >
+    <Space id="facebook" direction="vertical" style={{ width: "100%" }}>
       <h2>Facebook</h2>
       <p>
         Para descargar un reporte es necesario seleccionar al menos un{" "}
