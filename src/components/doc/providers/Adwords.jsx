@@ -3,7 +3,7 @@ import LoomIframe from "../../helpers/LoomIframe";
 
 const Adwords = () => {
   return (
-    <Space id="adwords-provider" direction="vertical" style={{ width: "100%" }}>
+    <Space id="adwords" direction="vertical" style={{ width: "100%" }}>
       <h2>Adwords</h2>
       <p>
         Para descargar un reporte es necesario seleccionar <i>recurso</i>,{" "}
