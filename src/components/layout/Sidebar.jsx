@@ -12,7 +12,6 @@ const Sidebar = () => {
         <Link href="#facebook" title="Facebook" />
         <Link href="#bing" title="Bing" />
       </Link>
-      <Link href="#reports" title="Creación de reportes" />
       <Link href="#faqs" title="FAQs" />
     </Anchor>
   );
