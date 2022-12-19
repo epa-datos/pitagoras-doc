@@ -3,6 +3,7 @@ import Adwords from "./Adwords";
 import Analytics from "./Analytics";
 import Bing from "./Bing";
 import Facebook from "./Facebook";
+import Tiktok from "./Tiktok";
 import "./_provider.scss";
 
 const AllProviders = () => {
@@ -13,6 +14,7 @@ const AllProviders = () => {
       <Analytics />
       <Facebook />
       <Bing />
+      <Tiktok />
     </Space>
   );
 };
