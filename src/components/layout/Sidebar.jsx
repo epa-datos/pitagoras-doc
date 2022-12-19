@@ -11,6 +11,7 @@ const Sidebar = () => {
         <Link href="#analytics" title="Analytics" />
         <Link href="#facebook" title="Facebook" />
         <Link href="#bing" title="Bing" />
+        <Link href="#tiktok" title="Tiktok" />
       </Link>
       <Link href="#faqs" title="FAQs" />
     </Anchor>
