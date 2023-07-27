@@ -1,8 +1,15 @@
+import { Space } from "antd";
+import { Collapse } from "antd";
+import LoomIframe from "../helpers/LoomIframe";
+import "./_doc.scss";
+
+const { Panel } = Collapse;
+
 const Tips = () => {
   return (
     <>
       <Space id="tips" direction="vertical">
-        <h1>FAQ's</h1>
+        <h1>Pro Tips</h1>
       </Space>
       <Collapse
         bordered={false}
@@ -10,22 +17,15 @@ const Tips = () => {
         className="site-collapse-custom-collapse"
       >
         <Panel
-          header="¿Qué hago si no me aparecen clientes en Pitágoras?"
+          header="Descargar mucha información de Pitágoras"
           key="1"
         >
           <p style={{ paddingLeft: 24 }}>
-            Hay 2 casos en los que no te aparecerán cuentas en Pitágoras, una
-            pantalla{" "}
-            <b>
-              <i>Not Authorized</i>
-            </b>{" "}
-            y{" "}
-            <b>
-              <i>You don't have permissions to get reports on any client yet</i>
-            </b>
-            :<br></br>
+            Descargar información de reportes pesados:<br></br>
             <dd>
-              <strong>Not Authorized:</strong>
+              Supongamos que necesitas crear un reporte de más de 6 meses atrás y que siga funcionan con la opción cummulative, crear una sola query que haga esta extracción sería una mala práctica pues diariamente estarías refrescando la información del día anterior más 6 meses más, considera realizar lo siguiente:
+              <br/><br/>
+              <strong>Pasos</strong>
               <br></br>
               <dd>
                 Aún no hay una cuenta en Newton creada con el email que estás

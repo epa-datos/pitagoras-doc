@@ -15,6 +15,7 @@ const Sidebar = () => {
         <Link href="#analytics4" title="GA4" />
       </Link>
       <Link href="#faqs" title="FAQs" />
+      <Link href="#tips" title="Pro Tips" />
     </Anchor>
   );
 };

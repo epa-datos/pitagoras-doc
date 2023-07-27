@@ -44,7 +44,7 @@ const Faqs = () => {
                 >
                   Newton
                 </a>{" "}
-                con tu email de EPA.<br></br>
+                con tu email de EPA, si ya tienes cuenta, solicita a Ruddy que te active el módulo de Pitágoras.<br></br>
               </dd>
               <div className="image">
                 <img
