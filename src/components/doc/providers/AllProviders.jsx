@@ -5,6 +5,7 @@ import Bing from "./Bing";
 import Facebook from "./Facebook";
 import Tiktok from "./Tiktok";
 import "./_provider.scss";
+import Analytics4 from "./Analytics4";
 
 const AllProviders = () => {
   return (
@@ -15,6 +16,7 @@ const AllProviders = () => {
       <Facebook />
       <Bing />
       <Tiktok />
+      <Analytics4 />
     </Space>
   );
 };

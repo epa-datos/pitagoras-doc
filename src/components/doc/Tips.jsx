@@ -1,14 +1,7 @@
-import { Space } from "antd";
-import { Collapse } from "antd";
-import LoomIframe from "../helpers/LoomIframe";
-import "./_doc.scss";
-
-const { Panel } = Collapse;
-
-const Faqs = () => {
+const Tips = () => {
   return (
     <>
-      <Space id="faqs" direction="vertical">
+      <Space id="tips" direction="vertical">
         <h1>FAQ's</h1>
       </Space>
       <Collapse
@@ -159,4 +152,4 @@ const Faqs = () => {
   );
 };
 
-export default Faqs;
+export default Tips;
