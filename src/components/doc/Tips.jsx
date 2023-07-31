@@ -108,7 +108,7 @@ const Tips = () => {
           </dd>
           <dd>
             <strong>
-              <b>siguientes pasos</b>
+              <b>Siguientes pasos</b>
             </strong>
             <br></br>
             <dd>

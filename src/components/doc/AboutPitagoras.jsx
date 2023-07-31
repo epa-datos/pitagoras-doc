@@ -21,9 +21,10 @@ const AboutPitagoras = () => {
       <h3>Pitágoras vs EPA Admin Tool</h3>
       <ul>
         <li>
-          Para <strong>Adwords, Facebook y Bing </strong>esta nueva versión
-          obtiene los datos directamente de las API's en el momento en el que
-          son solicitados.
+          Para{" "}
+          <strong>Adwords, Facebook, Bing, Tiktok y Google Analytics 4 </strong>
+          esta nueva versión obtiene los datos directamente de las API's en el
+          momento en el que son solicitados.
         </li>
         <li>
           Para <strong>Analytics</strong> la información se obtiene de la misma

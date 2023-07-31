@@ -45,7 +45,9 @@ const Faqs = () => {
                   Newton
                 </a>{" "}
                 con tu email de EPA, si ya tienes cuenta, solicita al
-                administrador(Ruddy González) que te active el módulo de
+                administrador(Ruddy González)(si eres alguien externo crea la
+                cuenta con tu correo personal y solicítale a tu Gerente de
+                cuentas que lo haga por ti), que te active el módulo de
                 Pitágoras.
                 <br></br>
               </dd>
@@ -65,9 +67,10 @@ const Faqs = () => {
               <br></br>
               <dd>
                 Una vez que tengas cuenta en Newton, solicita al
-                administrador(Ruddy González) que te agregue acceso a tus
-                clientes en Newton. Una vez que te confirme, reinicia Pitágoras
-                para ver tus cuentas listadas
+                administrador(Ruddy González)(en caso de ser externo solicita a
+                tu gerente de cuenta que lo solicite por ti) que te agregue
+                acceso a tus clientes en Newton. Una vez que te confirme,
+                reinicia Pitágoras para ver tus cuentas listadas
               </dd>
               <div className="image">
                 <img
@@ -91,7 +94,7 @@ const Faqs = () => {
             los siguientes pasos:<br></br>
             <dd>
               <strong>
-                1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cuentas de Google
+                1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cuentas de Google
                 ads:
               </strong>
               <br></br>
@@ -112,11 +115,24 @@ const Faqs = () => {
                 descargar la data de la cuenta que se quiere vincular.<br></br>
               </dd>
               <strong>2. </strong>
-              Una vez que haz revisado el punto anterior, contacta al
-              administrador(Ruddy Gonzalez) con los datos de la cuenta (ID,
-              currency, timezone, vertical, unidad de negocio y correo de
-              acceso[en el caso de GA4 este es indispensable]). El dará de alta
-              la cuenta en la base de datos de EPA.<br></br>
+              Una vez que haz revisado el punto anterior, utiliza el workflow de
+              slack en el canal <b>#epa_support_newton</b> con los datos de la
+              cuenta (ID, currency, timezone, vertical, unidad de negocio y
+              correo de acceso[en el caso de GA4 este es indispensable sea
+              analytics o analytics2@epa.digital]). Él dará de alta la cuenta en
+              la base de datos de EPA.<br></br>
+              <p className="notes">
+                Nota:{" "}
+                <i>
+                  En caso de que seas externo y necesites agregar cuentas
+                  primero revísalo con tu gerente de cuentas, pues todas las
+                  cuentas que des de alta para tu cliente le aparecerán a todos
+                  los usuarios que tengan acceso a dicho cliente, no solo a ti,
+                  este requerimiento tu gerente de cuentas lo hará llegar al
+                  administrador
+                </i>{" "}
+                <br />
+              </p>
               <strong>3. </strong>
               Una vez que Rudy haya dado de alta la cuenta, ya podras ver el
               cliente y/o cuenta en pitagoras y podras hacer tus queries. NOTA:
@@ -145,7 +161,7 @@ const Faqs = () => {
             </dd>
             Si ya has revisado los pasos anteriores y aun asi no ves
             información, o esta no coincide con la información en plataforma,
-            escribe un mensaje al canal de slack #p_epa-addon
+            escribe un mensaje al canal de slack <b>#p-pitagoras</b>
           </p>
         </Panel>
         <Panel header="¿Cómo cruzo la información de las plataformas?" key="4">
