@@ -44,8 +44,10 @@ const Faqs = () => {
                 >
                   Newton
                 </a>{" "}
-                con tu email de EPA, si ya tienes cuenta, solicita a Ruddy que
-                te active el módulo de Pitágoras.<br></br>
+                con tu email de EPA, si ya tienes cuenta, solicita al
+                administrador(Ruddy González) que te active el módulo de
+                Pitágoras.
+                <br></br>
               </dd>
               <div className="image">
                 <img
@@ -62,9 +64,10 @@ const Faqs = () => {
               </strong>
               <br></br>
               <dd>
-                Una vez que tengas cuenta en Newton, solicita a Ruddy González
-                que te agregue acceso a tus clientes en Newton. Una vez que te
-                confirme, reinicia Pitágoras para ver tus cuentas listadas
+                Una vez que tengas cuenta en Newton, solicita al
+                administrador(Ruddy González) que te agregue acceso a tus
+                clientes en Newton. Una vez que te confirme, reinicia Pitágoras
+                para ver tus cuentas listadas
               </dd>
               <div className="image">
                 <img
@@ -109,11 +112,11 @@ const Faqs = () => {
                 descargar la data de la cuenta que se quiere vincular.<br></br>
               </dd>
               <strong>2. </strong>
-              Una vez que haz revisado el punto anterior, contacta a Ruddy
-              Gonzalez, con los datos de la cuenta (ID, currency, timezone,
-              vertical, unidad de negocio y correo de acceso[en el caso de GA4
-              este es indispensable]). El dará de alta la cuenta en la base de
-              datos de EPA.<br></br>
+              Una vez que haz revisado el punto anterior, contacta al
+              administrador(Ruddy Gonzalez) con los datos de la cuenta (ID,
+              currency, timezone, vertical, unidad de negocio y correo de
+              acceso[en el caso de GA4 este es indispensable]). El dará de alta
+              la cuenta en la base de datos de EPA.<br></br>
               <strong>3. </strong>
               Una vez que Rudy haya dado de alta la cuenta, ya podras ver el
               cliente y/o cuenta en pitagoras y podras hacer tus queries. NOTA:
@@ -140,9 +143,9 @@ const Faqs = () => {
               <strong>4. </strong>Asegurate de utilizar las mismas dimensiones y
               métricas que en la plataforma.<br></br>
             </dd>
-            Si ya has revisado los pasos anteriores y aun asi no ves información,
-            o esta no coincide con la información en plataforma, escribe un
-            mensaje al canal de slack #p_epa-addon
+            Si ya has revisado los pasos anteriores y aun asi no ves
+            información, o esta no coincide con la información en plataforma,
+            escribe un mensaje al canal de slack #p_epa-addon
           </p>
         </Panel>
         <Panel header="¿Cómo cruzo la información de las plataformas?" key="4">
