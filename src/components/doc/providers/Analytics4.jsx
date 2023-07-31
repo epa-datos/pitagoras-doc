@@ -7,21 +7,50 @@ const Analytics4 = () => {
       <h2>Google Analytics 4</h2>
       <p>
         Para descargar un reporte es necesario seleccionar al menos una{" "}
-        <i>dimensión</i> y una <i>métrica</i>.
+        <a
+          href="https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i>dimensión</i> y una <i>métrica</i>.
+        </a>
       </p>
       <LoomIframe
         title="analytics4-example"
-        src="https://www.loom.com/embed/57d672a0cd1f4f48b8389fb119bcdfb8"
+        src="https://www.loom.com/embed/381c015f965d4a94ac03ad25bb42e0d7?sid=eed254ba-726a-4467-9b2d-57c60045d6aa"
       />
+
+      <br />
       <p>
         <b>
           <i>Sobre filas (other)</i>
         </b>
         : En muchas ocasiones se pueden detectar celdas que vienen con un valor{" "}
         <b>(other)</b>, esto es un "error" que genera la API de Google Analytics
-        4 cuando se hacen reportes de alta cardinalidad, la forma de eliminar
-        estas filas es hacer reportes más simples, con menos métricas y
-        dimensiones para evitar que valores se vayan a esa fila (other)
+        4 cuando se hacen reportes de{" "}
+        <a
+          href="https://analyticscanvas.com/what-is-other-in-ga4/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <b>
+            <i>alta carnidalidad</i>
+          </b>
+        </a>
+        , la forma de eliminar estas filas es hacer reportes más simples, con
+        menos métricas y dimensiones para evitar que valores se vayan a esa fila
+        (other), también considera que puede que aún haciendo reportes
+        sencillos, GA4 agrupe estos valores si son menos frecuentes que los
+        demás valores posibles.{" "}
+        <a
+          href="https://support.google.com/analytics/answer/13331684?hl=en#:~:text=What%20causes%20the%20(other)%20row,labels%20them%20as%20(other)."
+          rel="noreferrer"
+          target="_blank"
+        >
+          <i>
+            <b>Ver más</b>
+          </i>
+        </a>
       </p>
     </Space>
   );

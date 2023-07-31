@@ -10,6 +10,13 @@ const AboutPitagoras = () => {
         información de distintas plataformas cómo{" "}
         <strong>Adwords, Facebook, Analytics y Bing.</strong>
       </p>
+      <p className="newInfo">
+        <b>
+          Actualizado: Ahora puedes descargar información de{" "}
+          <a href="#tiktok">TikTok</a> y{" "}
+          <a href="#analytics4">Google Analytics 4</a>
+        </b>
+      </p>
 
       <h3>Pitágoras vs EPA Admin Tool</h3>
       <ul>

@@ -44,7 +44,8 @@ const Faqs = () => {
                 >
                   Newton
                 </a>{" "}
-                con tu email de EPA, si ya tienes cuenta, solicita a Ruddy que te active el módulo de Pitágoras.<br></br>
+                con tu email de EPA, si ya tienes cuenta, solicita a Ruddy que
+                te active el módulo de Pitágoras.<br></br>
               </dd>
               <div className="image">
                 <img
@@ -153,6 +154,23 @@ const Faqs = () => {
             title="reports"
             src="https://www.loom.com/embed/12ff66be3edf4a2290c3ce0046352bad"
           />
+        </Panel>
+        <Panel
+          header="¿Por qué no se puede guardar una query con rangos de fechas personalizados?"
+          key="5"
+        >
+          <p style={{ paddingLeft: 24 }}>
+            Un rango de fechas personalizado no se puede guardar ya que no
+            debería incluir fechas actuales(un rango de fechas personalizado no
+            debería usarse para sustituir al reporte acumulado), entonces por
+            lógica al no tener fechas actuales no debería haber cambios en la
+            información, es decir, el reporte que obtengas de un reporte de este
+            tipo el día de hoy o dentro de 5 meses debería ser el mismo pues al
+            ser fechas pasadas ya no van a cambiar a través del tiempo, motivo
+            por el cuál no necesita ser guardado pues es un reporte que solo se
+            debería ejecutar una vez y la información que recibas guardarla en
+            una hoja
+          </p>
         </Panel>
       </Collapse>
     </>
