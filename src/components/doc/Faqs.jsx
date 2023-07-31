@@ -62,9 +62,9 @@ const Faqs = () => {
               </strong>
               <br></br>
               <dd>
-                Una vez que tengas cuenta en Newton solicita a Ruddy González
-                que te agregue acceso a tus clientes en Newton, una vez te
-                confirme reinicia Pitágoras para ver tus cuentas listadas
+                Una vez que tengas cuenta en Newton, solicita a Ruddy González
+                que te agregue acceso a tus clientes en Newton. Una vez que te
+                confirme, reinicia Pitágoras para ver tus cuentas listadas
               </dd>
               <div className="image">
                 <img
@@ -125,13 +125,13 @@ const Faqs = () => {
         </Panel>
         <Panel header="¿Qué hago si la data no coincide?" key="3">
           <p style={{ paddingLeft: 24 }}>
-            Dado que la información viene directamente de las plataformas justo
+            Dado que la información viene directamente de las plataformas, justo
             en el momento que solicitas dicha información (a excepción de google
             analytics) es poco probable que la data no haga match con la
             plataforma, pero si tienes este problema te recomendamos seguir los
             pasos siguientes:
             <dd>
-              <strong>1. </strong>Asegurate de estar utilizando la cuenta
+              <strong>1. </strong>Asegúrate de estar utilizando la cuenta
               correcta.<br></br>
               <strong>2. </strong>Revisa con el cliente si no hay algun delay de
               información en la cuenta.<br></br>
@@ -140,8 +140,8 @@ const Faqs = () => {
               <strong>4. </strong>Asegurate de utilizar las mismas dimensiones y
               métricas que en la plataforma.<br></br>
             </dd>
-            Si ya has revisado los pasos anteriores y aun asi no ves información
-            o esta, no coincide con la información en plataforma escribe un
+            Si ya has revisado los pasos anteriores y aun asi no ves información,
+            o esta no coincide con la información en plataforma, escribe un
             mensaje al canal de slack #p_epa-addon
           </p>
         </Panel>
@@ -162,9 +162,9 @@ const Faqs = () => {
           <p style={{ paddingLeft: 24 }}>
             Un rango de fechas personalizado no se puede guardar ya que no
             debería incluir fechas actuales(un rango de fechas personalizado no
-            debería usarse para sustituir al reporte acumulado), entonces por
-            lógica al no tener fechas actuales no debería haber cambios en la
-            información, es decir, el reporte que obtengas de un reporte de este
+            debería usarse para sustituir al reporte acumulado). Entonces, por
+            lógica, al no tener fechas actuales no debería haber cambios en la
+            información. Es decir, el reporte que obtengas de un reporte de este
             tipo el día de hoy o dentro de 5 meses debería ser el mismo pues al
             ser fechas pasadas ya no van a cambiar a través del tiempo, motivo
             por el cuál no necesita ser guardado pues es un reporte que solo se
