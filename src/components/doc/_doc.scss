@@ -1,16 +1,32 @@
-h1{
+h1 {
   font-size: 2rem;
   margin: 0.63rem 0rem 0.31rem 0rem;
 }
 
-h2{
+h2 {
   margin: 0.63rem 0rem 0.31rem 0rem;
 }
 
-p{
+p {
   text-align: left;
 }
 
-.site-collapse-custom-collapse{
-  font-size: .92rem;
+.site-collapse-custom-collapse {
+  font-size: 0.92rem;
+}
+
+.image {
+  margin: auto;
+  width: 50%;
+}
+
+.newInfo {
+  font-size: 0.8rem;
+  margin: 0.13rem 0rem 0.11rem 0rem;
+  color: #1581a2;
+}
+
+.notes {
+  font-size: 0.75rem;
+  color: darkslategray;
 }

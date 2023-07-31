@@ -12,8 +12,10 @@ const Sidebar = () => {
         <Link href="#facebook" title="Facebook" />
         <Link href="#bing" title="Bing" />
         <Link href="#tiktok" title="Tiktok" />
+        <Link href="#analytics4" title="GA4" />
       </Link>
       <Link href="#faqs" title="FAQs" />
+      <Link href="#tips" title="Pro Tips" />
     </Anchor>
   );
 };
