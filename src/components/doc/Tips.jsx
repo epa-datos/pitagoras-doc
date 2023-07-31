@@ -21,19 +21,19 @@ const Tips = () => {
             Descargar información de reportes pesados:<br></br>
             <dd>
               Supongamos que necesitas crear un reporte de más de 6 meses atrás
-              y que siga funcionan con la opción cummulative, crear una sola
-              query que haga esta extracción sería una mala práctica pues
+              y que siga funcionan con la opción cummulative. Crear una sola
+              query que haga esta extracción sería una mala práctica, pues
               diariamente estarías refrescando la información del día anterior
-              más 6 meses más, considera realizar lo siguiente:
+              más 6 meses más. Considera realizar lo siguiente:
               <br />
               <br />
               <strong>Pasos</strong>
               <br></br>
               <dd>
                 Define el tiempo que vas a necesitar descargar y por cuánto
-                tiempo lo vas a querer descargar, por ejemplo, es 28 de Julio de
-                2023, necesitas hacer un reporte desde enero a la fecha y que
-                continúe lo que resta del año, lo vamos a dividir en 2 reportes,
+                tiempo lo vas a querer descargar. Por ejemplo, es 28 de Julio de
+                2023 y necesitas hacer un reporte desde enero a la fecha y que
+                continúe lo que resta del año. Lo vamos a dividir en 2 reportes,
                 histórico y acumulativo:<br></br>
                 <dd>Histórico: Del 1/1/2023 al 15/07/2023</dd>
                 <dd>
@@ -50,7 +50,7 @@ const Tips = () => {
               <br></br>
               <dd>
                 Este reporte no se necesita guardar pues será consultado solo 1
-                vez, se hace la query de las dimensiones y métricas que
+                vez: se hace la query de las dimensiones y métricas que
                 necesitas, escoges la opción de custom date range de el 1/1/2023
                 al 15/07/2023 y se descargará por defecto en la pestaña{" "}
                 <i>Default</i>, una vez descargado puedes renombrar la pestaña a
@@ -141,14 +141,14 @@ const Tips = () => {
                 <br />
                 <br />
                 Por ejemplo, tomando en cuenta la imágen de arriba, un filtro
-                AND podría ser (colorDePlayera=blanco AND colorDePlayera=negro),
-                esto traerá las playeras cuyo color sea blanco y negro al mismo
-                tiempo, en este caso sería solo la playera a rayas pues es la
+                AND podría ser (colorDePlayera=blanco AND colorDePlayera=negro).
+                Esto traerá las playeras cuyo color sea blanco y negro al mismo
+                tiempo. En este caso, sería solo la playera a rayas pues es la
                 única que cumple con ambas condiciones al mismo tiempo.
                 <br />
                 <br />
                 Ahora, un filtro OR sería (colorDePlayera=blanco OR
-                colorDePlayera=negro) esto traería como respuesta las 3
+                colorDePlayera=negro). Esto traería como respuesta las 3
                 playeras, pues las 3 playeras tienen blanco o negro en su color,
                 así que las 3 cumplen con la condición
               </dd>
@@ -163,7 +163,7 @@ const Tips = () => {
           <p style={{ paddingLeft: 24 }}>
             Una query se puede reciclar modificando prácticamente todos los
             valores de dicha query para que te siga sirviendo y no tener que
-            crear una nueva query cada día, cada semana o cada mes, la única
+            crear una nueva query cada día, cada semana o cada mes. La única
             restricción actual para las queries guardadas es borrarlas, pues
             esta opción no está habilitada actualmente
           </p>
