@@ -26,6 +26,32 @@ const Facebook = () => {
         <li>skan_conversion_id</li>
         <li>user_segment_key</li>
       </ul>
+      <p>
+        Aquí puedes encontrar la información oficial con descripciones sobre:
+        <ul>
+          <li>
+            <a href="https://developers.facebook.com/docs/marketing-api/insights/parameters/v17.0#fields">
+              Campos
+            </a>
+          </li>
+        </ul>
+      </p>
+      <h3>Filtros en Facebook</h3>
+      <ul>
+        <li>
+          Únicamente es posible filtrar en base a los campos cuyos valores sean
+          cadenas de texto.
+        </li>
+        <li>
+          Los operadores disponibles son "Contains" y "Does not contain", mismos
+          que verifican que la cadena de texto que se ingresa en el filtro se
+          encuentra o no en los valores del campo seleccionado.
+        </li>
+        <li>
+          Se pueden combinar filtros con los operadores lógicos AND y OR.{" "}
+          <a href="#filters">Aquí se explica su funcionamiento a detalle.</a>
+        </li>
+      </ul>
     </Space>
   );
 };
