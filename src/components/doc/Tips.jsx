@@ -119,7 +119,11 @@ const Tips = () => {
             </dd>
           </dd>
         </Panel>
-        <Panel header="Funcionamiento de filtros OR y AND en Pitágoras" key="2">
+        <Panel
+          id="filters"
+          header="Funcionamiento de filtros OR y AND en Pitágoras"
+          key="2"
+        >
           <p style={{ paddingLeft: 24 }}>
             Qué es un filtro OR, AND y cuándo utilizarlos, supongamos que
             tenemos la siguiente imagen de referencia:

@@ -134,12 +134,17 @@ const Faqs = () => {
                 <br />
               </p>
               <strong>3. </strong>
-              Una vez que Rudy haya dado de alta la cuenta, ya podras ver el
+              Una vez que Ruddy haya dado de alta la cuenta, ya podras ver el
               cliente y/o cuenta en pitagoras y podras hacer tus queries. NOTA:
               En el caso de google analytics deberas esperar hasta el dia
               siguiente para poder ver información, ya que el proceso de
               descarga de información corre en las madrugadas.
             </dd>
+            <p>
+              Si la cuenta ya fue agregada a la base de datos de EPA y sigues
+              sin poder verla, es muy posible que no tengas permiso para dicho
+              cliente. Solicita al administrador que verifique tus permisos.
+            </p>
           </p>
         </Panel>
         <Panel header="¿Qué hago si la data no coincide?" key="3">
