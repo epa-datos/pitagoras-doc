@@ -196,6 +196,16 @@ const Faqs = () => {
             una hoja
           </p>
         </Panel>
+        <Panel
+          header="¿Qué hago si aparecen cuentas que ya no están activas?"
+          key="6"
+        >
+          <p style={{ paddingLeft: 24 }}>
+            En caso de que una cuenta que ya no se esté utilizando siga
+            apareciendo en Pitágoras, es necesario hacer la solicitud al
+            administrador para que de de baja la cuenta en el sistema.
+          </p>
+        </Panel>
       </Collapse>
     </>
   );
