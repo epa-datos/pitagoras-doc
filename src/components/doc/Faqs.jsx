@@ -206,6 +206,29 @@ const Faqs = () => {
             administrador para que de de baja la cuenta en el sistema.
           </p>
         </Panel>
+        <Panel header="Sobre la métrica Reach en Facebook" key="7">
+          <p style={{ paddingLeft: 24 }}>
+            La métrica reach es una estimación de cuántas personas únicas vieron
+            un post. Es diferente a impresiones pues una persona puede tener n
+            cantidad de impresiones pero se seguirá contando como uno solo al
+            pedir la métrica reach, por lo que debes tener las siguientes
+            consideraciones en mente:
+            <ul>
+              <li>
+                La suma de reach de tus campañas no es igual al reach de tu
+                cuenta, pues puede haber personas que coinciden en 2 o más
+                campañas y que solo se contabilizan como 1 sola al solicitarlo a
+                nivel cuenta.
+              </li>
+              <li>
+                Al ser una métrica que se basa en estimaciones considera que el
+                valor no es 100% real y que dentro del plazo de 48 horas
+                posterior a cerrar el día puede cambiar su valor debido a que se
+                sigue calculando.
+              </li>
+            </ul>
+          </p>
+        </Panel>
       </Collapse>
     </>
   );
