@@ -52,6 +52,32 @@ const Analytics4 = () => {
           </i>
         </a>
       </p>
+      <p>
+        Aquí puedes encontrar la información oficial con descripciones sobre:
+        <ul>
+          <li>
+            <a href="https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema">
+              Dimensiones y Métricas
+            </a>
+          </li>
+        </ul>
+      </p>
+      <h3>Filtros en Google Analytics 4</h3>
+      <ul>
+        <li>
+          Únicamente es posible filtrar en base a las dimensiones cuyos valores
+          sean cadenas de texto.
+        </li>
+        <li>
+          Los operadores disponibles son "Contains" y "Does not contain", mismos
+          que verifican que la cadena de texto que se ingresa en el filtro se
+          encuentra o no en los valores de la dimensión seleccionada.
+        </li>
+        <li>
+          Se pueden combinar filtros con los operadores lógicos AND y OR.{" "}
+          <a href="#filters">Aquí se explica su funcionamiento a detalle.</a>
+        </li>
+      </ul>
     </Space>
   );
 };

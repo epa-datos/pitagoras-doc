@@ -73,6 +73,22 @@ const Tiktok = () => {
           </i>
         </li>
       </ol>
+      <p>
+        Aquí puedes encontrar la información oficial con descripciones sobre:
+        <ul>
+          <li>
+            <a href="https://ads.tiktok.com/gateway/docs/index?identify_key=c0138ffadd90a955c1f0670a56fe348d1d40680b3c89461e09f78ed26785164b&language=ENGLISH&doc_id=1751443967255553#item-link-Regular%20metrics">
+              Métricas
+            </a>
+          </li>
+        </ul>
+      </p>
+      <h3>Filtros en TikTok</h3>
+      <ul>
+        <li>
+          Por el momento, no es posible aplicar filtros en este proveedor.
+        </li>
+      </ul>
     </Space>
   );
 };

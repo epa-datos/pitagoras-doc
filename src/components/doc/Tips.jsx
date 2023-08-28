@@ -119,7 +119,11 @@ const Tips = () => {
             </dd>
           </dd>
         </Panel>
-        <Panel header="Funcionamiento de filtros OR y AND en Pitágoras" key="2">
+        <Panel
+          id="filters"
+          header="Funcionamiento de filtros OR y AND en Pitágoras"
+          key="2"
+        >
           <p style={{ paddingLeft: 24 }}>
             Qué es un filtro OR, AND y cuándo utilizarlos, supongamos que
             tenemos la siguiente imagen de referencia:
@@ -166,6 +170,17 @@ const Tips = () => {
             crear una nueva query cada día, cada semana o cada mes. La única
             restricción actual para las queries guardadas es borrarlas, pues
             esta opción no está habilitada actualmente
+          </p>
+        </Panel>
+        <Panel header="Borrar Queries" key="4">
+          <p style={{ paddingLeft: 24 }}>
+            Por el momento, no es posible borrar queries dentro de la
+            herramienta. Se puede borrar una query elimniando su fila
+            correspondiente en la hoja "savedQueriesPitagoras", pero esto no es
+            recomendable ya que cualquier otro cambio en dicha hoja puede
+            afectar el funcionamiento de las queries guardadas. Esta
+            funcionalidad estará disponible en futuras actualizaciones de
+            Pitágoras.
           </p>
         </Panel>
       </Collapse>

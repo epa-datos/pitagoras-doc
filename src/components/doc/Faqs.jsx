@@ -134,12 +134,17 @@ const Faqs = () => {
                 <br />
               </p>
               <strong>3. </strong>
-              Una vez que Rudy haya dado de alta la cuenta, ya podras ver el
+              Una vez que Ruddy haya dado de alta la cuenta, ya podras ver el
               cliente y/o cuenta en pitagoras y podras hacer tus queries. NOTA:
               En el caso de google analytics deberas esperar hasta el dia
               siguiente para poder ver información, ya que el proceso de
               descarga de información corre en las madrugadas.
             </dd>
+            <p>
+              Si la cuenta ya fue agregada a la base de datos de EPA y sigues
+              sin poder verla, es muy posible que no tengas permiso para dicho
+              cliente. Solicita al administrador que verifique tus permisos.
+            </p>
           </p>
         </Panel>
         <Panel header="¿Qué hago si la data no coincide?" key="3">
@@ -189,6 +194,39 @@ const Faqs = () => {
             por el cuál no necesita ser guardado pues es un reporte que solo se
             debería ejecutar una vez y la información que recibas guardarla en
             una hoja
+          </p>
+        </Panel>
+        <Panel
+          header="¿Qué hago si aparecen cuentas que ya no están activas?"
+          key="6"
+        >
+          <p style={{ paddingLeft: 24 }}>
+            En caso de que una cuenta que ya no se esté utilizando siga
+            apareciendo en Pitágoras, es necesario hacer la solicitud al
+            administrador para que de de baja la cuenta en el sistema.
+          </p>
+        </Panel>
+        <Panel header="Sobre la métrica Reach en Facebook" key="7">
+          <p style={{ paddingLeft: 24 }}>
+            La métrica reach es una estimación de cuántas personas únicas vieron
+            un post. Es diferente a impresiones pues una persona puede tener n
+            cantidad de impresiones pero se seguirá contando como uno solo al
+            pedir la métrica reach, por lo que debes tener las siguientes
+            consideraciones en mente:
+            <ul>
+              <li>
+                La suma de reach de tus campañas no es igual al reach de tu
+                cuenta, pues puede haber personas que coinciden en 2 o más
+                campañas y que solo se contabilizan como 1 sola al solicitarlo a
+                nivel cuenta.
+              </li>
+              <li>
+                Al ser una métrica que se basa en estimaciones considera que el
+                valor no es 100% real y que dentro del plazo de 48 horas
+                posterior a cerrar el día puede cambiar su valor debido a que se
+                sigue calculando.
+              </li>
+            </ul>
           </p>
         </Panel>
       </Collapse>
