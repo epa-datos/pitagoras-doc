@@ -13,6 +13,7 @@ const Sidebar = () => {
         <Link href="#bing" title="Bing" />
         <Link href="#tiktok" title="Tiktok" />
         <Link href="#analytics4" title="GA4" />
+        <Link href="#dv360" title="DV360" />
       </Link>
       <Link href="#faqs" title="FAQs" />
       <Link href="#tips" title="Pro Tips" />
