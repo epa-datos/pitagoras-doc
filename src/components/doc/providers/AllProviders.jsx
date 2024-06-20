@@ -6,6 +6,7 @@ import Facebook from "./Facebook";
 import Tiktok from "./Tiktok";
 import "./_provider.scss";
 import Analytics4 from "./Analytics4";
+import Dv360 from "./DV360";
 
 const AllProviders = () => {
   return (
@@ -17,6 +18,7 @@ const AllProviders = () => {
       <Bing />
       <Tiktok />
       <Analytics4 />
+      <Dv360/>
     </Space>
   );
 };
