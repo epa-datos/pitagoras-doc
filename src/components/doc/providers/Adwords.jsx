@@ -17,22 +17,38 @@ const Adwords = () => {
         Aquí puedes encontrar la información oficial con descripciones sobre:
         <ul>
           <li>
-            <a href="https://developers.google.com/google-ads/api/fields/v14/overview#list-of-all-resources">
+            <a
+              href="https://developers.google.com/google-ads/api/fields/v14/overview#list-of-all-resources"
+              target="_blank"
+              rel="noreferrer"
+            >
               Recursos
             </a>
           </li>
           <li>
-            <a href="https://developers.google.com/google-ads/api/fields/v14/accessible_bidding_strategy">
+            <a
+              href="https://developers.google.com/google-ads/api/fields/v14/accessible_bidding_strategy"
+              target="_blank"
+              rel="noreferrer"
+            >
               Atributos
             </a>
           </li>
           <li>
-            <a href="https://developers.google.com/google-ads/api/fields/v14/segments">
+            <a
+              href="https://developers.google.com/google-ads/api/fields/v14/segments"
+              target="_blank"
+              rel="noreferrer"
+            >
               Segmentos
             </a>
           </li>
           <li>
-            <a href="https://developers.google.com/google-ads/api/fields/v14/metrics">
+            <a
+              href="https://developers.google.com/google-ads/api/fields/v14/metrics"
+              target="_blank"
+              rel="noreferrer"
+            >
               Metricas
             </a>
           </li>

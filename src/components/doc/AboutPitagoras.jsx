@@ -9,13 +9,14 @@ const AboutPitagoras = () => {
         Pitágoras es un add-on de Google Sheets que permite descargar
         información de distintas plataformas cómo{" "}
         <strong>
-          Adwords, Facebook, Analytics, Bing, TikTok, y Google Analytics 4.
+          Adwords, Facebook, Analytics, Bing, TikTok, Google Analytics 4,
+          LinkedIn y DV360.
         </strong>
       </p>
       <p className="newInfo">
         <b>
           Actualmente se está trabajando en agregar más plataformas como
-          Appsflyer, Pinterest y LinkedIn.
+          Appsflyer y Pinterest.
         </b>
       </p>
 
@@ -23,7 +24,10 @@ const AboutPitagoras = () => {
       <ul>
         <li>
           Para{" "}
-          <strong>Adwords, Facebook, Bing, Tiktok y Google Analytics 4 </strong>
+          <strong>
+            Adwords, Facebook, Bing, Tiktok, Google Analytics 4, LinkedIn y
+            DV360{" "}
+          </strong>
           esta nueva versión obtiene los datos directamente de las API's de los
           proveedores en el momento en el que son solicitados.
         </li>
