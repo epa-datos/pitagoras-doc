@@ -17,7 +17,11 @@ const Analytics = () => {
         Aquí puedes encontrar la información oficial con descripciones sobre:
         <ul>
           <li>
-            <a href="https://ga-dev-tools.google/dimensions-metrics-explorer/">
+            <a
+              href="https://ga-dev-tools.google/dimensions-metrics-explorer/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Dimensiones y Métricas
             </a>
           </li>

@@ -30,7 +30,7 @@ const Facebook = () => {
         Aquí puedes encontrar la información oficial con descripciones sobre:
         <ul>
           <li>
-            <a href="https://developers.facebook.com/docs/marketing-api/insights/parameters/v17.0#fields">
+            <a href="https://developers.facebook.com/docs/marketing-api/reference/ads-insights/#fields">
               Campos
             </a>
           </li>

@@ -56,7 +56,11 @@ const Analytics4 = () => {
         Aquí puedes encontrar la información oficial con descripciones sobre:
         <ul>
           <li>
-            <a href="https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema">
+            <a
+              href="https://developers.google.com/analytics/devguides/reporting/data/v1/api-schema"
+              target="_blank"
+              rel="noreferrer"
+            >
               Dimensiones y Métricas
             </a>
           </li>

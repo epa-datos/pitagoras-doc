@@ -18,7 +18,11 @@ const Bing = () => {
         Aquí puedes encontrar la información oficial con descripciones sobre:
         <ul>
           <li>
-            <a href="https://learn.microsoft.com/en-us/advertising/guides/report-attributes-performance-statistics?view=bingads-13">
+            <a
+              href="https://learn.microsoft.com/en-us/advertising/guides/report-attributes-performance-statistics?view=bingads-13"
+              target="_blank"
+              rel="noreferrer"
+            >
               Columnas
             </a>
           </li>
