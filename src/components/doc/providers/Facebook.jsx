@@ -30,7 +30,11 @@ const Facebook = () => {
         Aquí puedes encontrar la información oficial con descripciones sobre:
         <ul>
           <li>
-            <a href="https://developers.facebook.com/docs/marketing-api/reference/ads-insights/#fields">
+            <a
+              href="https://developers.facebook.com/docs/marketing-api/reference/ads-insights/#fields"
+              target="_blank"
+              rel="noreferrer"
+            >
               Campos
             </a>
           </li>
