@@ -14,7 +14,7 @@ const FirstSteps = () => {
         src="https://www.loom.com/embed/a8c4b164a5ee4b1c909cd901035c4abb"
       />
       <p>
-        Posterior a esto se debe crear una cuenta en Newton y solicitar a Ruddy González acceso  a los clientes que se tienen asignados
+        Posterior a esto se debe crear una cuenta en Newton y solicitar a Ruddy González acceso  a los clientes que se tienen asignados.
       </p>
     </Space>
   );
