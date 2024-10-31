@@ -9,7 +9,7 @@ const AboutPitagoras = () => {
         Pitágoras es un add-on de Google Sheets que permite descargar
         información de distintas plataformas cómo{" "}
         <strong>
-          Adwords, Facebook, Analytics, Bing, TikTok, Google Analytics 4,
+          Adwords, Facebook, Analytics*, Bing, TikTok, Google Analytics 4,
           LinkedIn y DV360.
         </strong>
       </p>
@@ -20,7 +20,7 @@ const AboutPitagoras = () => {
         </b>
       </p>
 
-      <h3>Pitágoras vs EPA Admin Tool</h3>
+      <h3>Pitágoras vs EPA Add On</h3>
       <ul>
         <li>
           Para{" "}
@@ -32,10 +32,7 @@ const AboutPitagoras = () => {
           proveedores en el momento en el que son solicitados.
         </li>
         <li>
-          Para <strong>Analytics</strong> la información se obtiene de la misma
-          manera que el EPA Admin Tool; al finalizar un día los datos son
-          consultados y almacenados en nuestra base de datos con la finalidad de
-          proveer mayor exactitud en los datos solicitados.
+          Para <strong>Analytics</strong> la información ya no se actualiza ya que dejó de funcionar Universal Analytics en Julio 2023
         </li>
       </ul>
     </Space>

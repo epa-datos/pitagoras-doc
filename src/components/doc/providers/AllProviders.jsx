@@ -13,12 +13,12 @@ const AllProviders = () => {
     <Space id="providers" direction="vertical" style={{ width: "100%" }}>
       <h1>Proveedores</h1>
       <Adwords />
-      <Analytics />
       <Facebook />
       <Bing />
       <Tiktok />
       <Analytics4 />
       <Dv360/>
+      <Analytics />
     </Space>
   );
 };

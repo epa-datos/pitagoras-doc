@@ -1,6 +1,5 @@
 import { Space } from "antd";
 import { Collapse } from "antd";
-import LoomIframe from "../helpers/LoomIframe";
 import "./_doc.scss";
 
 const { Panel } = Collapse;
@@ -169,18 +168,6 @@ const Faqs = () => {
             escribe un mensaje al canal de slack <b>#p-pitagoras</b>
           </p>
         </Panel>
-
-        {/* Video no disponible */}
-        {/* <Panel header="¿Cómo cruzo la información de las plataformas?" key="4">
-          <p style={{ paddingLeft: 24 }}>
-            Para crear un reporte combinando la información de múltiples
-            proveedores sigue los pasos que se muestran a continuación:
-          </p>
-          <LoomIframe
-            title="reports"
-            src="https://www.loom.com/embed/12ff66be3edf4a2290c3ce0046352bad"
-          />
-        </Panel> */}
 
         <Panel
           header="¿Por qué no se puede guardar una query con rangos de fechas personalizados?"
