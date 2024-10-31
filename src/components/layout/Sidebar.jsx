@@ -8,12 +8,12 @@ const Sidebar = () => {
       <Link href="#first-steps" title="Primeros pasos" />
       <Link href="#providers" title="Proveedores">
         <Link href="#adwords" title="Adwords" />
-        <Link href="#analytics" title="Analytics" />
         <Link href="#facebook" title="Facebook" />
         <Link href="#bing" title="Bing" />
         <Link href="#tiktok" title="Tiktok" />
         <Link href="#analytics4" title="GA4" />
         <Link href="#dv360" title="DV360" />
+        <Link href="#analytics" title="Analytics" />
       </Link>
       <Link href="#faqs" title="FAQs" />
       <Link href="#tips" title="Pro Tips" />

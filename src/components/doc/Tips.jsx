@@ -167,20 +167,16 @@ const Tips = () => {
           <p style={{ paddingLeft: 24 }}>
             Una query se puede reciclar modificando prácticamente todos los
             valores de dicha query para que te siga sirviendo y no tener que
-            crear una nueva query cada día, cada semana o cada mes. La única
-            restricción actual para las queries guardadas es borrarlas, pues
-            esta opción no está habilitada actualmente
+            crear una nueva query cada día, cada semana o cada mes. incluso 
+            si ya no te sirve una query puedes eliminarla seleccionando dicha 
+            query y usando el botón de borrar.
           </p>
         </Panel>
-        <Panel header="Borrar Queries" key="4">
+        <Panel header="Hoja savedQueriesPitagoras" key="4">
           <p style={{ paddingLeft: 24 }}>
-            Por el momento, no es posible borrar queries dentro de la
-            herramienta. Se puede borrar una query elimniando su fila
-            correspondiente en la hoja "savedQueriesPitagoras", pero esto no es
-            recomendable ya que cualquier otro cambio en dicha hoja puede
-            afectar el funcionamiento de las queries guardadas. Esta
-            funcionalidad estará disponible en futuras actualizaciones de
-            Pitágoras.
+            Evita tocar la hoja savedQueriesPitagoras pues de llegar a hacerlo 
+            puedes llegar a recibir un error de Pitagoras referente a que el 
+            registro no se encontró en dicha hoja.
           </p>
         </Panel>
       </Collapse>
