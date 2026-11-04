@@ -112,6 +112,17 @@ const Faqs = () => {
                 manager de EPA, además se debe de conceder acceso al usuario de
                 sistema DATOS1, sino se cumplen ambos requerimientos no podremos
                 descargar la data de la cuenta que se quiere vincular.<br></br>
+                <strong>Cuentas de Mercado Libre Ads:</strong>
+                <br></br>
+                El anunciante debe haber dado acceso al usuario de analytics de
+                EPA con Advertising habilitado. Cada anunciante se da de alta
+                una vez por producto (Product Ads, Brand Ads, Display).<br></br>
+                <strong>Amazon, Walmart Connect, RTB House, AppsFlyer, TikTok,
+                Bing, LinkedIn y DV360:</strong>
+                <br></br>
+                La cuenta debe estar compartida con la credencial de EPA de esa
+                plataforma. El detalle de cada una está en{" "}
+                <a href="#access">Accesos y seguridad</a>.<br></br>
               </dd>
               <strong>2. </strong>
               Una vez que haz revisado el punto anterior, utiliza el workflow de
@@ -135,9 +146,10 @@ const Faqs = () => {
               <strong>3. </strong>
               Una vez que Ruddy haya dado de alta la cuenta, ya podras ver el
               cliente y/o cuenta en pitagoras y podras hacer tus queries. NOTA:
-              En el caso de google analytics deberas esperar hasta el dia
-              siguiente para poder ver información, ya que el proceso de
-              descarga de información corre en las madrugadas.
+              En las plataformas que se leen de tablas cargadas de forma
+              periódica (Amazon Ads, AppsFlyer BigQuery y Presupuestos) una
+              cuenta nueva puede tardar hasta el siguiente ciclo de carga
+              (normalmente el día siguiente) en mostrar información.
             </dd>
             <p>
               Si la cuenta ya fue agregada a la base de datos de EPA y sigues
@@ -149,8 +161,9 @@ const Faqs = () => {
         <Panel header="¿Qué hago si la data no coincide?" key="3">
           <p style={{ paddingLeft: 24 }}>
             Dado que la información viene directamente de las plataformas, justo
-            en el momento que solicitas dicha información (a excepción de google
-            analytics) es poco probable que la data no haga match con la
+            en el momento que solicitas dicha información (a excepción de Amazon
+            Ads, AppsFlyer BigQuery y Presupuestos, que se leen de tablas
+            cargadas periódicamente) es poco probable que la data no haga match con la
             plataforma, pero si tienes este problema te recomendamos seguir los
             pasos siguientes:
             <dd>
@@ -194,6 +207,35 @@ const Faqs = () => {
             En caso de que una cuenta que ya no se esté utilizando siga
             apareciendo en Pitágoras, es necesario hacer la solicitud al
             administrador para que de de baja la cuenta en el sistema.
+          </p>
+        </Panel>
+        <Panel header="¿Pitágoras puede modificar mis campañas o cuentas?" key="8">
+          <p style={{ paddingLeft: 24 }}>
+            No. Pitágoras <b>solo hace consultas de lectura</b>: no crea,
+            edita, pausa ni borra nada en las plataformas, y las cuentas se
+            conectan con acceso estándar o de lector. Más detalle en{" "}
+            <a href="#access">Accesos y seguridad</a>.
+          </p>
+        </Panel>
+        <Panel
+          header="¿Las consultas de Pitágoras gastan la cuota de API del cliente?"
+          key="9"
+        >
+          <p style={{ paddingLeft: 24 }}>
+            Las cuotas de las APIs pertenecen a la aplicación que consulta. EPA
+            usa sus propias aplicaciones, por lo que si el cliente también se
+            conecta a la API con las suyas no se suman. La excepción es
+            AppsFlyer, donde la cuota es por cuenta de AppsFlyer y se comparte.
+          </p>
+        </Panel>
+        <Panel
+          header="En RTB House no encuentro el nombre de la campaña"
+          key="10"
+        >
+          <p style={{ paddingLeft: 24 }}>
+            En RTB House la campaña se llama <b>Subcampaign</b>. Agrega la
+            dimensión <i>Subcampaign</i> (nombre) o <i>Subcampaign Hash</i>{" "}
+            (ID) en la lista de dimensiones.
           </p>
         </Panel>
         <Panel header="Sobre la métrica Reach en Facebook" key="7">
