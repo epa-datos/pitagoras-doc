@@ -7,6 +7,12 @@ import Tiktok from "./Tiktok";
 import "./_provider.scss";
 import Analytics4 from "./Analytics4";
 import Dv360 from "./DV360";
+import LinkedIn from "./LinkedIn";
+import Amazon from "./Amazon";
+import Walmart from "./Walmart";
+import MercadoLibre from "./MercadoLibre";
+import AppsFlyer from "./AppsFlyer";
+import RtbHouse from "./RtbHouse";
 
 const AllProviders = () => {
   return (
@@ -17,7 +23,13 @@ const AllProviders = () => {
       <Bing />
       <Tiktok />
       <Analytics4 />
-      <Dv360/>
+      <Dv360 />
+      <LinkedIn />
+      <Amazon />
+      <Walmart />
+      <MercadoLibre />
+      <AppsFlyer />
+      <RtbHouse />
       <Analytics />
     </Space>
   );

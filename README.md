@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Pitágoras: documentación
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sitio de documentación de **Pitágoras**, el add-on de Google Sheets de EPA Digital que descarga información de plataformas publicitarias y de analítica.
 
-## Available Scripts
+Publicado en https://epa-datos.github.io/pitagoras-doc
 
-In the project directory, you can run:
+> El sitio es **público** (GitHub Pages). No incluir en él nombres de secretos, credenciales, identificadores de proyectos, ni detalles de seguridad internos.
 
-### `npm start`
+## Qué contiene
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Sección | Archivo |
+|---|---|
+| Sobre Pitágoras | `src/components/doc/AboutPitagoras.jsx` |
+| Cómo funciona (incluye Newton) | `src/components/doc/HowItWorks.jsx` |
+| Primeros pasos | `src/components/doc/FirstSteps.jsx` |
+| Accesos y seguridad | `src/components/doc/Access.jsx` |
+| Un archivo por plataforma | `src/components/doc/providers/*.jsx` (listados en `AllProviders.jsx`) |
+| FAQs y Pro Tips | `src/components/doc/Faqs.jsx`, `Tips.jsx` |
+| Menú lateral | `src/components/layout/Sidebar.jsx` |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Cómo agregar una plataforma nueva
 
-### `npm test`
+1. Crear `src/components/doc/providers/<Plataforma>.jsx` con un `Space` cuyo `id` sea el ancla.
+2. Importarlo y agregarlo en `providers/AllProviders.jsx`.
+3. Agregar el enlace en `layout/Sidebar.jsx`.
+4. Si cambian los accesos, actualizar la tabla de `Access.jsx` y la FAQ de cuentas que no aparecen en `Faqs.jsx`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Las plataformas disponibles en el add-on están en `pitagoras-add-on/src/client/utils/constants.js` (`PROVIDERS`).
 
-### `npm run build`
+## Desarrollo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+npm start        # http://localhost:3000
+npm test
+npm run build
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Publicar
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+El sitio se publica en la rama `gh-pages`:
 
-### `npm run eject`
+```bash
+npm run deploy
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Publicar solo tras fusionar los cambios a `main`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Documentación relacionada
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Referencia interna de endpoints: `mextractor/INTERNAL_DOCS.md`.
+- Add-on: repo `pitagoras-add-on`.
+- Panel de administración: `epa-dashboard` (en uso) y `epa-newton`.
